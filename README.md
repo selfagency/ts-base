@@ -1,6 +1,6 @@
 # ts-base
 
-A modern Node.js Typescript base project with a bundler, logger, standard library, linter, and formatter, that outputs ESM, ready to go
+A modern Node.js Typescript base project with a bundler, logger, standard library, linter, and formatter, ready to go.
 
 - Package manager: [PNPM](https://pnpm.io)
 - Type system: [Typescript](https://www.typescriptlang.org)
@@ -9,3 +9,5 @@ A modern Node.js Typescript base project with a bundler, logger, standard librar
 - Standard library: [Radashi](https://radashi.js.org)
 - Linter: [eslint](https://eslint.org)
 - Formatter: [prettier](https://prettier.io)
+
+Add environment variables to `.env` to preload.

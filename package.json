@@ -25,7 +25,7 @@
   "scripts": {
     "dev": "tsup --watch",
     "build": "tsup",
-    "start": "node --enable-source-maps --experimental-specifier-resolution=node dist/index.js",
+    "start": "node --env-file=.env --enable-source-maps --experimental-specifier-resolution=node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -44,5 +44,8 @@
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.18.1"
   },
-  "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
+  "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c",
+  "engines": {
+    "node": ">=20.6.0"
+  }
 }
