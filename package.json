@@ -1,9 +1,12 @@
 {
-  "name": "null",
+  "name": "tsc-base",
   "version": "0.1.0",
-  "description": "",
-  "keywords": [],
-  "license": "UNLICENSED",
+  "description": "A Typescript base project with `tsup` bundler and `tslog` logger",
+  "keywords": [
+    "typescript",
+    "bundler"
+  ],
+  "license": "MIT",
   "author": "",
   "type": "module",
   "tsup": {
