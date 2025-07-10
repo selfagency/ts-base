@@ -29,7 +29,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "radashi": "^12.3.0",
+    "radashi": "^12.5.1",
     "tslog": "^4.9.3"
   },
   "devDependencies": {
